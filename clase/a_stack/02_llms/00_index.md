@@ -16,6 +16,6 @@ En este módulo aprenderemos qué son los LLMs, cómo funcionan internamente (To
 Debes completar el siguiente curso en DataCamp:
 
 *   **Curso:** [AI Assisted Coding for Developers](https://app.datacamp.com/learn/courses/ai-assisted-coding-for-developers)
-*   **Entrega:** Deberás subir una evidencia (screenshot) de este curso completado.
+*   **Entrega:** Deberás subir una evidencia (screenshot) de este curso completado. Por ahora no es necesario, hasta que acabemos el modulo de github. La tarea final del modulo de github es subir la evidencia de este certificado junto con el de python.
 *   **Instrucciones de Entrega:** Ver **[Módulo de Git - Tarea de Certificaciones](../05_git/05_task_certifications.md)**.
 

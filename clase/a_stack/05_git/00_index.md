@@ -20,6 +20,7 @@ Este es el módulo más importante para la logística del curso. Aquí aprender�
 ## 📝 Tarea Práctica: Certificaciones
 
 Esta es tu primera entrega real. Debes configurar todo tu entorno y subir evidencias.
+Primero debes completar de leer los documentos relevantes para entender el flujo de trabajo y la estructura del repositorio, y al final te indica como subir evidencia de que acabaste las certificaciones. Empezaremos viendo un video, especificado en el siguiente documento, y al final de la parte de github se indicara como subir evidencia de este video y el anteriror de llms para hacer codigo.
 
 👉 **[Ir a las Instrucciones de la Tarea 01](./05_task_certifications.md)**
 

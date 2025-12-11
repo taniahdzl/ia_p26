@@ -1,5 +1,9 @@
 # Introducción al Stack Tecnológico
 
+Este es el manual técnico del curso. Aquí encontrarás todas las guías para instalar, configurar y entender las herramientas que usaremos.
+
+> 📋 **¿Buscas qué hacer?** Revisa la **[Lista Maestra de Tareas y Lecturas](./00_lista_tareas.md)** para ver el orden paso a paso.
+
 **Código render**: Para renderizar la página de markdown en VSCode o similares usen `Ctrl+Shift+V`. Si no funciona, busca en Google o pregúntale a un LLM cómo renderizarlo para tu caso específico.
 
 ## Contenido del Curso

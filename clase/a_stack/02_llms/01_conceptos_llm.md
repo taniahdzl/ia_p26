@@ -3,7 +3,8 @@
 ## Tarea
 
 Para profundizar en el uso de asistentes de IA para programar, completa el siguiente curso:
-*   [AI Assisted Coding for Developers](https://app.datacamp.com/learn/courses/ai-assisted-coding-for-developers)
+*   [AI Assisted Coding for Developers](https://app.datacamp.com/learn/courses/ai-assisted-coding-for-developers)  
+Asegurate de completar el curso, la idea es que aprendas a hacer prompts en general, no se subira evidencia de esta tarea hasta depues (completando le modulo de github) pero debes completarlo para la siguiente clase por que te sera de gran ayuda en las tareas y en lo que estaremos aprendiendo.
 
 ## ¿Qué son los LLMs?
 

@@ -13,8 +13,17 @@ Python es el lenguaje "lingua franca" de la Inteligencia Artificial. Es fácil d
     *   Incluye un script de ejemplo real.
 
 ---
+## Tarea: Python Básico
 
-## 📝 Tarea Práctica
+### Tarea y Certificación
+
+Para acreditar este módulo, deberás completar el curso de DataCamp y subir tu evidencia usando la plantilla que hemos preparado.
+
+*   **Curso Requerido:** [Introduction to Python for Data Science](https://app.datacamp.com/learn/courses/intro-to-python-for-data-science)
+*   **Plantilla de Entrega:** [`clase/certificaciones/python_intro.md`](../../certificaciones/python_intro.md)
+
+
+### 📝 Tarea Práctica
 
 Tu misión es crear tu primer script de Python, ejecutarlo y subirlo a tu carpeta personal mediante un Pull Request.
 

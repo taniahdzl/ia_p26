@@ -1,5 +1,6 @@
-*   [Introduction to GitHub Concepts](https://app.datacamp.com/learn/courses/introduction-to-github-concepts)
-# Evidencia: Introduction to GitHub Concepts
+*   [Introduction to Python for Data Science](https://app.datacamp.com/learn/courses/intro-to-python-for-data-science)
+
+# Evidencia: Introduction to Python for Data Science
 
 Nombre del Estudiante: [Tu Nombre Aquí]
 Fecha: [Fecha]
@@ -12,7 +13,7 @@ Por favor, inserta aquí abajo una captura de pantalla clara donde se vea:
 3.  Tu usuario logueado.
 
 ```markdown
-![Evidencia GitHub](./evidencia_github.png)
+![Evidencia Python](./evidencia_python.png)
 ```
 
 o enlace al certificado público:

@@ -1,3 +1,5 @@
+*   **Curso:** [AI Assisted Coding for Developers](https://app.datacamp.com/learn/courses/ai-assisted-coding-for-developers)  
+
 # Evidencia: AI Assisted Coding for Developers
 
 Nombre del Estudiante: [Tu Nombre Aquí]
