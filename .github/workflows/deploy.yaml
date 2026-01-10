@@ -1,8 +1,15 @@
 # uu_framework GitHub Pages Deployment
 # Builds and deploys the course site to GitHub Pages
 #
-# This workflow runs on push to main branch (professor's repo only)
-# Students' forks will not trigger deployment
+# Site URL: https://www.sonder.art/{repo-name}/
+#
+# This workflow is REUSABLE across all uu_framework repos.
+# Just copy this file - the repo name is auto-detected.
+#
+# Prerequisites:
+# 1. Enable GitHub Pages in repo settings (Settings > Pages)
+# 2. Set source to "GitHub Actions"
+# 3. Custom domain configured at org level (sonder-art.github.io → www.sonder.art)
 
 name: Deploy to GitHub Pages
 
@@ -11,19 +18,16 @@ on:
     branches: [main]
   workflow_dispatch:  # Allow manual trigger
 
-# Sets permissions of the GITHUB_TOKEN
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
     steps:
@@ -34,44 +38,44 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
-          cache-dependency-path: uu_framework/eleventy/package-lock.json
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.12'
 
       - name: Install Python dependencies
-        run: |
-          pip install pyyaml
+        run: pip install pyyaml
 
       - name: Install Node.js dependencies
         working-directory: uu_framework/eleventy
-        run: npm ci
+        run: npm install
 
       - name: Run preprocessing
-        run: |
-          python3 uu_framework/scripts/preprocess.py --verbose
+        run: python3 uu_framework/scripts/preprocess.py --verbose
 
       - name: Build site with Eleventy
         working-directory: uu_framework/eleventy
-        run: npx @11ty/eleventy
+        run: npx @11ty/eleventy --config=.eleventy.js
         env:
           NODE_ENV: production
+          PATH_PREFIX: "/${{ github.event.repository.name }}/"
 
       - name: Build CSS with Tailwind
         working-directory: uu_framework/eleventy
         run: |
+          mkdir -p ../../_site/css/themes
           npx tailwindcss -i ./src/css/main.css -o ../../_site/css/styles.css --minify
-          cp -r ./src/css/themes ../../_site/css/
+          cp -r ./src/css/themes/*.css ../../_site/css/themes/
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: _site
 
-  # Deployment job
   deploy:
     environment:
       name: github-pages
