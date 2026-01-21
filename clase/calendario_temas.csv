@@ -5,8 +5,8 @@ Clase,Fecha,Tema
 4,21/01/2026,Lógica: Razonamiento con certeza y lógica proposicional
 5,26/01/2026,Computación y sus Límites: Turing machines y P vs NP
 6,28/01/2026,Probabilidad: Razonamiento bajo incertidumbre y Bayes
-7,02/02/2026,asueto
-asueto,04/02/2026,Fat Tails: Cuando fallan LLN y CLT
+asueto,02/02/2026,asueto
+7,04/02/2026,Fat Tails: Cuando fallan LLN y CLT
 8,09/02/2026,Information Theory I: Entropy y conditional entropy
 9,11/02/2026,Information Theory II: KL divergence y cross-entropy
 10,16/02/2026,Optimización: Gradient descent y convexity
