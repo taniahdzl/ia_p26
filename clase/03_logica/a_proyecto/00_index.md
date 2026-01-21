@@ -123,7 +123,7 @@ Presenta una tabla con tus variables proposicionales.
 ### 3. Especificación de la Base de Conocimiento (KB)
 Este es el corazón del proyecto. Documenta cada regla en tres niveles:
 1.  **Lenguaje Natural:** "Si me ignora en WhatsApp pero publica historias, entonces está enojado".
-2.  **Lógica Formal:** $(\text{ignora\_wa} \land \text{publica\_historia}) \rightarrow \text{esta\_enojado}$.
+2.  **Lógica Formal:** $(\text{ignoraWa} \land \text{publicaHistoria}) \rightarrow \text{estaEnojado}$.
 3.  **Justificación:** ¿Por qué esta regla tiene sentido en tu modelo?
 
 ### 4. Implementación del Motor Lógico
