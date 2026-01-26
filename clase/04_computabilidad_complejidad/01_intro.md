@@ -112,6 +112,8 @@ Imagina todos los problemas posibles organizados en círculos concéntricos:
 - Muestran que hay **límites fundamentales** incluso en la lógica matemática
 - Algunas verdades matemáticas son **verdaderas pero no demostrables**
 
+**Recurso recomendado:** [Math's Fundamental Flaw](https://www.youtube.com/watch?v=HeQX2HjkcNo) (Veritasium) — Excelente video sobre los teoremas de Gödel y sus implicaciones
+
 ### Para Filosofía
 - ¿Qué significa "resolver" un problema?
 - ¿Hay cosas que nunca podremos saber?
@@ -150,6 +152,16 @@ Pero también es **liberador**:
 - Sabrás cuándo parar de buscar un algoritmo perfecto
 - Entenderás por qué algunas cosas requieren heurísticas
 - Apreciarás la belleza de los límites fundamentales
+
+---
+
+## Videos
+
+**Videos:**
+- 🎥 [Math's Fundamental Flaw](https://www.youtube.com/watch?v=HeQX2HjkcNo) — Veritasium (21 min)
+  - Excelente introducción visual a los Teoremas de Gödel
+  - Explica cómo Gödel demostró que las matemáticas tienen límites fundamentales
+  - Conexiones con el Halting Problem y la computabilidad
 
 ---
 
