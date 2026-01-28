@@ -28,7 +28,7 @@ Por favor, inserta aquí abajo una captura de pantalla clara donde se vea:
 3.  Tu usuario logueado.
 
 ```markdown
-![Certificado de Tania](./evidencia_python.png)
+![Certificado de Tania](evidencia_python.png)
 ```
 
 o enlace al certificado público:
